@@ -15,15 +15,15 @@
             {{/if}}
             {{#unless post}}
                 <form action="/game"  method="post">
+                    <h1>Please select your hand and click play:</h1>
                     <div class="form-group">
-                        <label for="userChoice">Select your hand:</label>
                         <select class="form-control" id="userChoice" name="userChoice">
                         <option>Rock</option>
                         <option>Paper</option>
                         <option>Scissors</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Play</button>
                 </form>
             {{/unless}}
         </div>
