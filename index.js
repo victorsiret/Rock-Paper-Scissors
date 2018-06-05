@@ -52,7 +52,7 @@ app.post('/game', function (req, res) {
     if (userNumb === computerRand) {
         winner = "The game is a draw.";
     }
-    else if (userNumb - computerRand === 1|userNumb - computerRand === -2) {
+    else if (userNumb - computerRand === 1||userNumb - computerRand === -2) {
         winner = "You won!";
     }
     else {
